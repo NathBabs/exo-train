@@ -68,7 +68,6 @@ export class Train {
         let cIndex = strArr.indexOf('C')
 
         if (cIndex == -1) {
-            console.log('There are no carriages to be filled');
             throw new Error('There are no carriages to be filed');
         }
         // reset finalStructure

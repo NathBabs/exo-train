@@ -1,6 +1,7 @@
 build/**
 **/build
 node_modules/
+exotrain.zip
 
 #Exclude tsc generated files
 js/*.map
