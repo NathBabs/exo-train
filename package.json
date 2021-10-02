@@ -1,0 +1,17 @@
+{
+  "name": "exo-train",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "author": "Nathaniel Babalola",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^6.2.2",
+    "nodemon": "^2.0.12"
+  }
+}
