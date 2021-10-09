@@ -60,7 +60,9 @@ export class Train {
         }
         return;
     }
-
+    // tells the compiler that the given property or variable is a key representing a publicly accessible property name of a given type
+    // keyof keyword to set a variable to the property name of an object.
+    // the value must match a publicly accessible property name of the given object’s type
     getKeyValue(propName: string): string {
         return this.config[propName as keyof Config]
     }
